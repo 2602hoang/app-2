@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  basePath: "/",
-  // assetPrefix: "/app-2/",
-  // trailingSlash: true,
+const nextConfig = {
+  basePath: "/app-2",
+
   async rewrites() {
     return [
       {
@@ -12,3 +11,5 @@ module.exports = {
     ];
   },
 };
+
+module.exports = nextConfig;
