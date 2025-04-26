@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  basePath: "/app-2",
+  basePath: "/",
   // assetPrefix: "/app-2/",
   // trailingSlash: true,
   async rewrites() {
     return [
       {
-        source: "/app-2/:path*",
+        source: "/:path*",
         destination: "/:path*",
       },
     ];
