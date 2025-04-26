@@ -16,7 +16,6 @@ export const useToken = () => {
     ) {
       // signIn("keycloak");
       console.log("🚀 ~ useToken ~ status:", status);
-
       return;
     }
     if (status === "authenticated" && session?.accessToken) {
