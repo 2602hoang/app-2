@@ -8,7 +8,6 @@ export default function Home() {
       <Link href={process.env.NEXT_PUBLIC_MAIN as string}> Go to Main App</Link>
       <Link href="/detail">go to detail app 2</Link>
       <a href="/app-1">Go to app 1</a>
-      <img src="./images/main_bg.png" alt="vercel" />
       <Profile/>
     </div>
   );
