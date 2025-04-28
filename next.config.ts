@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/app-2",
-  assetPrefix: "/app-2",
+  // assetPrefix: "/app-2",
   async rewrites() {
     return [
       {
