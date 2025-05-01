@@ -7,7 +7,7 @@ export default function Home() {
       <h1>THE APP 2</h1>
       <Link href={process.env.NEXT_PUBLIC_MAIN as string}> Go to Main App</Link>
       <Link href="/detail">go to detail app 2</Link>
-      <a href="/app-1">Go to app 1</a>
+      <a href="/app-1/home">Go to app 1</a>
       <Profile/>
     </div>
   );
