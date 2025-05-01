@@ -5,7 +5,7 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/app-2/:path*",
+        source: "/home/:path*",
         destination: "/:path*",
       },
     ];
